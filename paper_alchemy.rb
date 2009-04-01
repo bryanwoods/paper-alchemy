@@ -1,3 +1,4 @@
+#
 # paper_alchemy.rb
 # Base Rails template for morphing data objects into ink on paper
 
