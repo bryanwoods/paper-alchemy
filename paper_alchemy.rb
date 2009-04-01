@@ -24,4 +24,3 @@ rake("gems:install", :sudo => true)
 
 generate("authenticated", "user session")
 generate("rspec")
-generate("features")
