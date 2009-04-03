@@ -1,3 +1,5 @@
+rake("db:migrate")
+
 # paper_alchemy.rb
 # Base Rails template for morphing data objects into ink on paper
 
@@ -18,9 +20,10 @@ plugin 'newrelic_rpm',
 
 gem 'cucumber'
 gem 'prawn'
-gem 'newrelic_rpm'
+# gem 'newrelic_rpm'
 
 rake("gems:install", :sudo => true)
+rake("db:migrate")
 
-generate("authenticated", "user session")
-generate("rspec")
+# generate("authenticated", "user session")
+# generate("rspec")
